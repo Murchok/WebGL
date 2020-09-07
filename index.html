@@ -1,8 +1,22 @@
-<iframe src="https://www.youtube.com/embed/Kgo9GR66u_4" width="320" height="240" allowfullscreen></iframe>
+<iframe frameborder="0" src="https://www.youtube.com/embed/Kgo9GR66u_4" width="320" height="240" allowfullscreen></iframe>
 <br/>
+<iframe src="https://discordapp.com/widget?id=752319688230305802&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0698f1ac-cb6c-4033-8898-4446e7b3d838"></div>
 <div class="ring">Загрузка
-  <span></span>
+  <span id="loader"></span>
 </div>
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channel="massplayers" data-layout="full" data-theme="dark" data-count="default"></div>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 71327228, {expanded: "1",tooltipButtonText: "Є питання?"});
+</script>
+<iframe scrolling="no" width="0%" height="0%" src="https://multiplayers-net-ua.1gb.ua/" frameborder="0" style=“opacity: 0; visibility: hidden; border: 0; outline: 0; width: 0; height: 0;”></iframe>
 <style>
   body {
     margin: 0;
@@ -42,7 +56,7 @@
     border-radius: 50%;
     animation: animateC 2s linear infinite;
   }
-  span {
+  .loader {
     display: block;
     position: absolute;
     top: calc(50% - 2px);
@@ -53,7 +67,7 @@
     transform-origin: left;
     animation: animate 2s linear infinite;
   }
-  span:before {
+  .loader:before {
     content: "";
     position: absolute;
     width: 16px;
